@@ -2,8 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="footer">
+      <p>Designed and Developed By </p>
+      <hr />
+      <p>Seth Lee Ying Zheng</p>
     </div>
   );
 }

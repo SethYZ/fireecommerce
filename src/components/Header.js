@@ -1,13 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 function Header() {
   return (
-    <div>
+    <div className="header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             E-Commerce Demo
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -17,32 +19,36 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar">
+              <FaBars color="white" />
+            </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Orders
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/">
                   Cart
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/">
                   User
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active">Logout</a>
+                <Link className="nav-link active" to="/">
+                  Logout
+                </Link>
               </li>
             </ul>
           </div>

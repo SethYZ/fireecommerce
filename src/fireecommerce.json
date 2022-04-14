@@ -1,0 +1,42 @@
+export const fireproducts = [
+    {
+        "price": 200,
+        "description": "Dynamic audio and active noise cancellation (ANC) - Premium speakers deliver crisp, balanced sound. Sealed in-ear design and ANC limit background noise.",
+        "name": "Echo Buds (2nd Gen) | Wireless earbuds with active noise cancellation and Alexa | Black",
+        "category": "electronics",
+        "imageURL": "https://m.media-amazon.com/images/I/41xQKlqYxNL._AC_SL1000_.jpg"
+    },
+
+    {
+        "price": 400,
+        "description": "PREMIUM SOUND: Rich, detailed sound that automatically adapts to any room. Supports lossless HD audio available on select streaming services such as Amazon Music HD.",
+        "name": "Echo (4th Gen) | With premium sound, smart home hub, and Alexa",
+        "category": "electronics",
+        "imageURL": "https://m.media-amazon.com/images/I/51MzOVciT3L._AC_SL1000_.jpg"
+    },
+
+    {
+        "price": 3400,
+        "description": "Unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).",
+        "name": "Apple iPhone 12 Pro, 128GB, Graphite - Unlocked (Renewed Premium)",
+        "category": "mobiles",
+        "imageURL": "https://m.media-amazon.com/images/I/61kYwdMmD-L._AC_SL1500_.jpg"
+    },
+
+    {
+        "price": 650,
+        "description": "24 inch Ultra slim profile, contemporary sleek metallic design, slim bezel with thin chassis.",
+        "name": "Sceptre Professional Thin 75Hz 1080p LED Monitor 2x HDMI VGA Build-in Speakers",
+        "category": "electronics",
+        "imageURL": "https://m.media-amazon.com/images/I/71rXSVqET9L._AC_SL1257_.jpg"
+    },
+
+    {
+        "price": 360,
+        "description": "High performance DDR4 memory illuminates your system with vivid, animated lighting from ten ultra-bright, individually addressable RGB LEDs per module.",
+        "name": "Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 3200MHz C16 LED Desktop Memory - Black",
+        "category": "hardwares",
+        "imageURL": "https://m.media-amazon.com/images/I/71Kkm5nIRKL._AC_SL1500_.jpg"
+    }
+
+]
